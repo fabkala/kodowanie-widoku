@@ -1,0 +1,122 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 12;
+}
+
+.background {
+    height: 850px;
+    width: 100%;
+    opacity: 0.6;
+    background-image: url("img/header-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* srodek-text */
+
+.grandmas-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    font-size: 40px;
+    color: white;
+}
+
+.grandma {
+    font-size: 64px;
+    color: deeppink;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: black;
+    border: 2px solid black;
+}
+
+ /* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 12;
+    height: 70px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:6;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 6;
+}
+
+ /* logo */
+
+.navbar-logo {
+    margin-left: 20px;
+    flex: 8;
+}
+
+ /* linki */
+
+.navbar-links {
+    flex: 11;
+}
+
+.text-link {
+    font-size: 24px;
+    margin: 8px;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+ /* phone */
+
+.navbar-phone {
+    flex: 3;
+}
+
+ /* koszyk */
+
+.navbar-cart {
+    flex: 4;
+}
+
+.cart {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+}
+
+.fa {
+    margin-right: 10px;
+    font-size: 20px !important;
+}
+
