@@ -15,7 +15,6 @@ body {
 .background {
     height: 850px;
     width: 100%;
-    opacity: 0.6;
     background-image: url("img/header-background.jpeg");
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +46,6 @@ body {
     justify-content: center;
     position: relative;
     color: black;
-    border: 2px solid black;
 }
 
  /* navbar */
@@ -120,3 +118,101 @@ a:link {
     font-size: 20px !important;
 }
 
+/* dol */
+
+.about-content {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex: 12;
+}
+
+.about-left {
+    flex: 6;
+    padding-left: 20%;
+    padding-right: 10%;
+    color: gray;
+}
+
+.about-right {
+    flex: 6;
+    padding-right: 20%;
+}
+
+.text-about {
+    font-size: 42px;
+    color: black;
+}
+
+.text-us {
+    margin-left: 10px;
+    font-size: 64px;
+    color: deeppink;
+}
+
+.text-all {
+    margin-bottom: 50px;
+}
+
+#cake-img {
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.border {
+    width: 550px;
+    height: 400px;
+    border: 5px solid #f9e494;
+    position: absolute;
+    z-index: 0;
+}
+
+.button1 {
+    padding: 8px 12px 8px 12px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #EEEEEE;
+    height: 400px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text1 {
+    margin-top: 100px;
+    font-size: 36px;
+    color: black;
+}
+
+.footer-text2 {
+    margin-top: 86px;
+    margin-left: 5px;
+    font-size: 50px;
+    color: deeppink;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    border: 1px solid black;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.footer-input {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
